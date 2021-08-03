@@ -7,7 +7,6 @@ jobs:
       - name: Build Steps
         run: |
           echo "Build Job Getting Executed"
-          ls building.txt
   testing: 
     runs-on: ubuntu-latest
     if: always()
